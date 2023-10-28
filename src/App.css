@@ -1,0 +1,19 @@
+.img-font {
+    background: radial-gradient(ellipse at bottom, #1b2735 10%, #090a0f 100%)
+}
+
+img {
+    width: 100%;
+}
+
+.active {
+    opacity: 1;
+    filter: drop-shadow(0 0 13px #fff) drop-shadow(0 0 20px #fff);
+    
+  }
+
+.hoverA:hover {
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff);
+    transition: .3s;
+}
