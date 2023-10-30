@@ -4,3 +4,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(13,15,16,.8);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(13,15,16,.8);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg,#842cd7,#21f5f1);
+    border-radius: 10px;
+    border: 1px solid rgba(13,15,16,.8);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    opacity: .5;
+}

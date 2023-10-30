@@ -52,6 +52,7 @@ const NavBar = () => {
             activeClass="active"
             smooth={true}
             spy={true}
+            offset={200}
             title="Sobre mí"
             duration={600}
           >
