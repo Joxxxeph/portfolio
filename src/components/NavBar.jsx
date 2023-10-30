@@ -1,4 +1,4 @@
-import { IconAddressBook, IconCode, IconFileCode, IconUserCode } from "@tabler/icons-react";
+import { IconAddressBook, IconCode, IconFileCode, IconSun, IconUserCode } from "@tabler/icons-react";
 import { IconBrandGoogleHome } from "@tabler/icons-react";
 import { Link } from "react-scroll";
 
@@ -19,6 +19,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             duration={600}
+            title="Home"
             offset={-200}
           >
             <IconBrandGoogleHome />
@@ -29,26 +30,29 @@ const NavBar = () => {
             activeClass="active"
             smooth={true}
             spy={true}
+            title="Mis Proyectos"
             duration={600}
           >
             <IconFileCode />
           </Link>
           <Link
             className="hoverA cursor-pointer w-[60px] h-[60px] flex justify-center items-center"
-            to=""
+            to="stack"
             activeClass="active"
             smooth={true}
             spy={true}
+            title="Mis Habilidades"
             duration={600}
           >
             <IconCode />
           </Link>
           <Link
             className="hoverA cursor-pointer w-[60px] h-[60px] flex justify-center items-center"
-            to=""
+            to="about-me"
             activeClass="active"
             smooth={true}
             spy={true}
+            title="Sobre mí"
             duration={600}
           >
             <IconUserCode />
@@ -60,8 +64,20 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             duration={600}
+            title="Contáctame"
           >
             <IconAddressBook />
+          </Link>
+          <Link
+            className="hoverA cursor-pointer w-[60px] h-[60px] flex justify-center items-center"
+            to=""
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            duration={600}
+            title="Tema"
+          >
+            <IconSun color="yellow"/>
           </Link>
         </div>
       </div>

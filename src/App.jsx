@@ -1,9 +1,11 @@
 
 import './App.css'
+import AboutMe from './components/AboutMe';
 import Header from './components/Header'
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
+import Stack from './components/Stack';
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
         <Home />
         <NavBar />
         <Projects />
+        <Stack />
+        <AboutMe />
         <div className=" min-h-screen"></div>
       </div>
     </main>

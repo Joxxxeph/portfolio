@@ -17,3 +17,24 @@ img {
     filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff);
     transition: .3s;
 }
+
+.btn-a {
+    background-image: linear-gradient(90deg,#842cd7,#21f5f1);
+    border-radius: 8px;
+    padding: 1px;
+    box-shadow: 0 20px 40px rgba(132,44,215,.3)
+}
+
+.btn-all {
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color: #0d0f10;
+    border-radius: 8px;
+    transition: background-color .3s;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-all:hover {
+    background-color: rgba(13,15,16,.8)
+}
