@@ -1,20 +1,28 @@
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 
 const Home = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <section
       id="home"
       className="text-white h-screen items-start pt-10 sm:pt-[6.5rem] grid sm:grid-cols-[300px_1fr] sm:gap-8"
     >
-      <div className="flex justify-center items-center">
+      <div data-aos="fade-right" className="shadow-lg rounded-full overflow-hidden flex justify-center items-center pb-8 sm:pb-0">
         <img
-          src="./users.png"
+          src="./profile.png"
           alt=""
-          className="max-w-[200px] sm:max-w-[300px] "
+          className="max-w-[200px] sm:max-w-[300px] h-[300px] sm:h-[350px] object-cover "
         />
       </div>
-      <div className="grid text-center sm:text-start gap-4 px-8 md:pr-12">
+      <div data-aos="fade-left" className="grid text-center sm:text-start gap-4 px-8 md:pr-12 ">
         <div className="">
           <h1 className="text-[2rem] font-extrabold">
             <span className="hover:text-[#842cd7] transition duration-200">J</span>
