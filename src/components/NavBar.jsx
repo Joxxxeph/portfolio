@@ -60,10 +60,11 @@ const NavBar = () => {
           </Link>
           <Link
             className="hoverA cursor-pointer w-[60px] h-[60px] flex justify-center items-center"
-            to=""
+            to="contact"
             activeClass="active"
             smooth={true}
             spy={true}
+            offset={200}
             duration={600}
             title="Contáctame"
           >

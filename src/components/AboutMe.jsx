@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className="h-screen flex flex-col items-center px-4 text-white text-center sm:pt-[25rem] pt-[20rem]" id="about-me">
+    <section className="h-screen flex flex-col items-center px-4 text-white text-center sm:pt-[25rem] pt-[18rem]" id="about-me">
         <h1 className="text-[2rem] pb-[3rem]">Más sobre mí...</h1>
         <div className="border-t-[2px] border-[#842cd7] w-[10rem] sm:w-[20rem]"></div>
         <p className="py-[2rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 

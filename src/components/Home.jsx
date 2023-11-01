@@ -16,7 +16,21 @@ const Home = () => {
       </div>
       <div className="grid text-center sm:text-start gap-4 px-8 md:pr-12">
         <div className="">
-          <h1 className="text-[2rem] font-extrabold">Joseph Vásquez</h1>
+          <h1 className="text-[2rem] font-extrabold">
+            <span className="hover:text-[#842cd7] transition duration-200">J</span>
+            <span className="hover:text-[#842cd7] transition duration-200">o</span>
+            <span className="hover:text-[#842cd7] transition duration-200">s</span>
+            <span className="hover:text-[#842cd7] transition duration-200">e</span>
+            <span className="hover:text-[#842cd7] transition duration-200">p</span>
+            <span className="hover:text-[#842cd7] transition duration-200">h</span>
+            <span className="hover:text-[#842cd7] transition duration-200 pl-2">V</span>
+            <span className="hover:text-[#842cd7] transition duration-200">á</span>
+            <span className="hover:text-[#842cd7] transition duration-200">s</span>
+            <span className="hover:text-[#842cd7] transition duration-200">q</span>
+            <span className="hover:text-[#842cd7] transition duration-200">u</span>
+            <span className="hover:text-[#842cd7] transition duration-200">e</span>
+            <span className="hover:text-[#842cd7] transition duration-200">z</span>
+          </h1>
           <h2 className="text-2xl pb-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#842cd7] to-[#21f5f1] pt-2">
             Full Stack Developer
           </h2>

@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -8,11 +9,15 @@ const Header = () => {
         </div>
 
         <div className="flex py-2">
-          <a href="#" className="btn-a">
+          <Link to="contact"
+            smooth={true}
+            spy={true}
+            offset={100}
+            duration={600} className="btn-a cursor-pointer">
             <div className="btn-all text-white px-[.5rem] py-[.5rem] sm:px-[1rem]">
               Trabajemos juntos
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </header>

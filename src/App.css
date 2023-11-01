@@ -45,7 +45,7 @@ img {
 .bg-div {
     grid-column-gap: 2px;
     grid-row-gap: 2px;
-    background-color: rgba(13,15,16,.8);
+    background-color: rgba(13,15,16,.9);
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -53,4 +53,13 @@ img {
 
 .btn-all:hover {
     background-color: rgba(13,15,16,.8)
+}
+
+.content .content-info {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.content:hover .content-info {
+    opacity: 1;
 }

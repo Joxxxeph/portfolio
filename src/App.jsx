@@ -1,6 +1,7 @@
 
 import './App.css'
 import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
 import Header from './components/Header'
 import Home from './components/Home';
 import NavBar from './components/NavBar';
@@ -19,6 +20,7 @@ function App() {
         <Projects />
         <Stack />
         <AboutMe />
+        <Contact />
         <div className=" min-h-screen"></div>
       </div>
     </main>
