@@ -1,0 +1,104 @@
+[
+    {
+        "name":"Rick & Morty App",
+        "description":"En esta app se puede visualizar la información de las locaciones de la serie y cada uno de sus residentes.",
+        "img":"/proyectsImage/rickAndMorty.jpeg",
+        "stacks":[
+            "/stacksImage/react.png",
+            "/stacksImage/tailwind.png",
+            "/stacksImage/javascript.png",
+            "/stacksImage/css.png"
+        ]
+        ,
+        "url": "https://rick-and-morty-app-swart-tau.vercel.app/"
+    },
+    {
+        "name":"E-Commerce",
+        "description":"Tienda virtual para franelas y sueters estampados con carrito de compras y persistencia de datos.",
+        "img":"/proyectsImage/ecomerce.jpeg",
+        "stacks":[
+            "/stacksImage/javascript.png",
+            "/stacksImage/html.png",
+            "/stacksImage/css.png"    
+        ]
+        ,
+        "url": "https://joxxxeph.github.io/e-commerce/"
+    },
+    {
+        "name":"Pokedex App",
+        "description":"Aplicación en el cual se puede ver información sobre los Pokémons, mediante búsquedas por nombre y tipos.",
+        "img":"/proyectsImage/pokedex.jpeg",
+        "stacks":[
+            "/stacksImage/react.png",
+            "/stacksImage/javascript.png",
+            "/stacksImage/tailwind.png",
+            "/stacksImage/css.png"    
+        ]
+        ,
+        "url": "https://pokedex-joxxxeph.vercel.app/"
+    },
+    {
+        "name":"Wheater App",
+        "description":"Aplicación del clima en donde se refleja los datos climatológicos de tu región o ciudad, te permite buscar una localización en específico.",
+        "img":"/proyectsImage/wheater.jpeg",
+        "stacks":[
+            "/stacksImage/react.png",
+            "/stacksImage/javascript.png",
+            "/stacksImage/tailwind.png"    
+        ]
+        ,
+        "url": "https://weather-app-nu-ivory.vercel.app/"
+    },
+    {
+        "name":"CRUD de Usuarios",
+        "description":"Aplicación que te permite crear, listar, actualizar y eliminar usarios mediante un formulario de registro.",
+        "img":"/proyectsImage/crud.jpeg",
+        "stacks":[
+            "/stacksImage/react.png",
+            "/stacksImage/javascript.png",
+            "/stacksImage/tailwind.png",    
+            "/stacksImage/css.png"    
+        ]
+        ,
+        "url": "https://crud-app-joxxxeph.vercel.app/"
+    },
+    {
+        "name":"Servicios web App",
+        "description":"Landing Page de servicios web.",
+        "img":"/proyectsImage/servicios.jpeg",
+        "stacks":[
+            "/stacksImage/javascript.png",
+            "/stacksImage/html.png",
+            "/stacksImage/css.png"    
+        ]
+        ,
+        "url": "https://servicios-app.vercel.app//"
+    },
+    {
+        "name":"Frases Filosóficas App",
+        "description":"Frases icónicas de los filósofos más reconocidos de la historia, puedes cambiar las frases mediante un botón.",
+        "img":"/proyectsImage/phrase.jpeg",
+        "stacks":[
+            "/stacksImage/react.png",
+            "/stacksImage/javascript.png",
+            "/stacksImage/html.png",
+            "/stacksImage/css.png"    
+        ]
+        ,
+        "url": "https://primer-entregable-react-p5766kbge-joxxxeph.vercel.app/"
+    },
+    {
+        "name":"Contador App",
+        "description":"Contador básico con animación y botones de interacción.",
+        "img":"/proyectsImage/contador.jpeg",
+        "stacks":[
+            "/stacksImage/javascript.png",
+            "/stacksImage/html.png",
+            "/stacksImage/css.png"    
+        ]
+        ,
+        "url": "https://joxxxeph.github.io/contadornuevo/"
+    }
+
+    
+]

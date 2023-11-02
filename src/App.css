@@ -58,11 +58,17 @@ img {
     background-color: rgba(13,15,16,.9)
 }
 
-.content .content-info {
-    opacity: 0;
-    transition: opacity .3s;
-}
-
-.content:hover .content-info {
-    opacity: 1;
+@media (min-width:768px) {
+    .content .content-info {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity .3s;
+    }
+    
+    .content:hover .content-info {
+        opacity: 1;
+    }
+    
 }

@@ -15,14 +15,14 @@ const Home = () => {
       id="home"
       className="text-white h-screen items-start pt-10 sm:pt-[6.5rem] grid sm:grid-cols-[300px_1fr] sm:gap-8"
     >
-      <div data-aos="fade-right" className=" rounded-full overflow-hidden flex justify-center items-center pb-8 sm:pb-0">
+      <div data-aos="fade-right" className=" rounded-full overflow-hidden flex justify-center items-center sm:pb-0">
         <img
           src="./profile.png"
           alt=""
           className="max-w-[200px] sm:max-w-[350px] h-[300px] sm:h-[350px] object-cover "
         /> 
       </div>
-      <div data-aos="fade-left" className="grid text-center sm:text-start gap-4 px-8 md:pr-12 ">
+      <div data-aos="fade-left" className="grid text-center  sm:text-start gap-4 px-4 md:pr-12 ">
         <div className="">
           <h1 className="text-[2rem] font-extrabold transition duration-300 dark:text-black">
             <span className="hover:text-[#842cd7] transition duration-200">J</span>

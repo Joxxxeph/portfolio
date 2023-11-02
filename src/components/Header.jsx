@@ -14,7 +14,7 @@ const Header = () => {
             spy={true}
             offset={100}
             duration={600} className="btn-a cursor-pointer">
-            <div className="gap-x-[2px] gap-y-[2px] duration-500 text-white dark:text-black dark:bg-[#bde5f8] dark:hover:bg-[rgba(248,248,248,0.9)] hover:bg-[#0d0f10cc] bg-[#0d0f10] rounded-[8px] [transition:background-color_.3s] flex justify-centeritems-center py-[.5rem] px-[2.5rem]">
+            <div className="gap-x-[2px] gap-y-[2px] duration-500 text-white dark:text-black dark:bg-[#bde5f8] dark:hover:bg-[rgba(248,248,248,0.9)] hover:bg-[#0d0f10cc] bg-[#0d0f10] rounded-[8px] [transition:background-color_.3s] flex justify-centeritems-center py-[.5rem] px-[1rem]">
               Trabajemos juntos
             </div>
           </Link>
