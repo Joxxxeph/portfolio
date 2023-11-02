@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react"
+import { IconBrandAngular, IconBrandCss3, IconBrandGithub, IconBrandJavascript, IconBrandLinkedin, IconBrandMysql, IconBrandNodejs, IconBrandPhp, IconBrandPython, IconBrandReact, IconBrandTailwind } from "@tabler/icons-react"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="text-white h-screen items-start pt-10 sm:pt-[6.5rem] grid sm:grid-cols-[300px_1fr] sm:gap-8"
+      className="relative text-white h-screen items-start pt-10 sm:pt-[6.5rem] grid sm:grid-cols-[300px_1fr] sm:gap-8"
     >
       <div data-aos="fade-right" className=" rounded-full overflow-hidden flex justify-center items-center sm:pb-0">
         <img
@@ -71,6 +71,17 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <IconBrandJavascript className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 absolute translate-x-[1rem] translate-y-[5rem] -rotate-[15deg]" size={35}/>
+      <IconBrandReact className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 hidden md:flex absolute translate-x-[42rem] translate-y-[11rem] rotate-[10deg]" size={40}/>
+      <IconBrandCss3 className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 absolute translate-x-[13rem] translate-y-[28rem] -rotate-[20deg]" size={32}/>
+      <IconBrandNodejs className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 hidden sm:flex absolute translate-x-[35rem] -translate-y-[3rem] rotate-[10deg]" size={50}/>
+      <IconBrandGithub className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 absolute hidden sm:flex translate-x-[36rem] translate-y-[34rem] rotate-[12deg]" size={45}/>
+      <IconBrandPython className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 absolute translate-x-[17rem] translate-y-[9rem] -rotate-[9deg]" size={48}/>
+      <IconBrandTailwind className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 hidden md:flex absolute translate-x-[47rem] translate-y-[25rem] rotate-[9deg]" size={36}/>
+      <IconBrandAngular className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 hidden lg:flex absolute translate-x-[58rem] translate-y-[1rem] rotate-[9deg]" size={32}/>
+      <IconBrandPhp className="text-gray-500/20 hidden dark:text-gray-500/50 transition duration-300 lg:flex absolute translate-x-[61rem] translate-y-[30rem] rotate-[12deg]" size={38}/>
+      <IconBrandMysql className="text-gray-500/20 dark:text-gray-500/50 transition duration-300 absolute -translate-x-[4rem] translate-y-[32rem] -rotate-[10deg]" size={48}/>
+
     </section>
   );
 }
