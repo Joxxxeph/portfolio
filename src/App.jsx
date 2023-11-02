@@ -17,7 +17,7 @@ function App() {
     return "light";
   });
   useEffect(() => {
-    if (theme === "dark") {
+    if (theme === "light") {
       document.querySelector("html").classList.add("dark");
     } else {
       document.querySelector("html").classList.remove("dark");

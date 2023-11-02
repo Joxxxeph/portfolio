@@ -20,7 +20,7 @@ const Home = () => {
           src="./profile.png"
           alt=""
           className="max-w-[200px] sm:max-w-[350px] h-[300px] sm:h-[350px] object-cover "
-        />
+        /> 
       </div>
       <div data-aos="fade-left" className="grid text-center sm:text-start gap-4 px-8 md:pr-12 ">
         <div className="">
@@ -57,7 +57,7 @@ const Home = () => {
         <div className="sm:flex sm:justify-start justify-center items-center pt-2">
           <div className="flex justify-center">
             <a href="#" className="btn-a">
-              <div className="btn-all items-center py-[.5rem] px-[2.5rem]">Descargar CV</div>
+              <div className="duration-500 gap-x-[2px] gap-y-[2px] dark:text-black dark:bg-[#bde5f8] dark:hover:bg-[rgba(248,248,248,0.9)] hover:bg-[#0d0f10cc] bg-[#0d0f10] rounded-[8px] [transition:background-color_.3s] flex justify-centeritems-center py-[.5rem] px-[2.5rem]">Descargar CV</div>
             </a>
           </div>
 

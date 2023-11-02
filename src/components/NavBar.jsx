@@ -80,7 +80,7 @@ const NavBar = ({handleChangeTheme, theme}) => {
             title="Tema"
             onClick={handleChangeTheme}
           >
-            {theme === "light" ? <IconSun color="yellow"/> : <IconMoon /> 
+            {theme === "dark" ? <IconSun color="yellow"/> : <IconMoon /> 
               }
           </Link>
         </div>
