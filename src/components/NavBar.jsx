@@ -1,15 +1,15 @@
-import { IconAddressBook, IconCode, IconFileCode, IconSun, IconUserCode } from "@tabler/icons-react";
+import { IconAddressBook, IconCode, IconFileCode, IconMoon, IconSun, IconUserCode } from "@tabler/icons-react";
 import { IconBrandGoogleHome } from "@tabler/icons-react";
 import { Link } from "react-scroll";
 
 
 
-const NavBar = () => {
+const NavBar = ({handleChangeTheme, theme}) => {
   return (
-    <nav className="fixed left-0 bottom-2 animate-nav-bar md:bottom-8 w-full overflow-hidden z-50">
+    <nav className="fixed  left-0 bottom-2 animate-nav-bar md:bottom-8 w-full overflow-hidden z-50">
       <div className="container mx-auto">
         <div
-          className="w-full flex bg-black/20 h-[70px] md:h-[80px] backdrop-blur-2xl 
+          className="w-full flex transition duration-300 dark:bg-gray-400/60 dark:text-[#0d0f10] bg-black/20 h-[70px] md:h-[80px] backdrop-blur-2xl 
             rounded-full max-w-[400px] mx-auto px-5 items-center justify-between text-2xl text-white/50 "
         >
           <Link
@@ -78,8 +78,10 @@ const NavBar = () => {
             spy={true}
             duration={600}
             title="Tema"
+            onClick={handleChangeTheme}
           >
-            <IconSun color="yellow"/>
+            {theme === "light" ? <IconSun color="yellow"/> : <IconMoon /> 
+              }
           </Link>
         </div>
       </div>

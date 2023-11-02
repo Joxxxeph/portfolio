@@ -1,7 +1,7 @@
 const Stack = () => {
   return (
     <section className=" flex flex-col sm:pt-[8rem] pt-[4rem] px-4" id="stack">
-      <h1 data-aos="fade-right"  className="text-[2rem] text-center text-white pb-[3rem]">
+      <h1 data-aos="fade-right"  className="text-[2rem] text-center transition duration-300 dark:text-black text-white pb-[3rem]">
         Mis Habilidades.
       </h1>
       <div data-aos="zoom-in"  className="border-div">

@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <header className="min-h-[70px] bg-transparent px-4">
       <div className="flex justify-between items-center py-3">
-        <div>
-          <img className="w-[60px] sm:w-[70px]" src="./users.png" alt="" />
+        <div className=" overflow-hidden">
+          <a href="#home" className="text-white transition duration-300 dark:text-black text-[1.5rem]">Axl Design<span className="text-[#842cd7]">.</span></a>
         </div>
 
         <div className="flex py-2">

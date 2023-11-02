@@ -33,22 +33,22 @@ const Contact = () => {
 
   return (
     <section
-      className="h-screen flex flex-col justify-center gap-8 px-4 sm:grid sm:grid-cols-2 sm:items-center sm:pt-[20rem] pt-[21rem]"
+      className=" h-screen flex flex-col justify-center gap-8 px-4 sm:grid sm:grid-cols-2 sm:items-center sm:pt-[20rem] pt-[21rem]"
       id="contact"
     >
       <div className="animate-left-rigth" data-aos="fade-right" >
-        <h1 className="text-white text-[1.5rem] sm:text-[2rem] text-center">
-          <span className="text-[#842cd7] text-[2rem] sm:text-[2.5rem]">¡</span>{" "}
+        <h1 className="text-white transition duration-300 dark:text-black text-[1.5rem] sm:text-[2rem] text-center">
+          <span className="text-[#842cd7] text-[2rem]  sm:text-[2.5rem]">¡</span>{" "}
           Trabajemos juntos{" "}
           <span className="text-[#842cd7] text-[2rem] sm:text-[2.5rem]">!</span>
         </h1>
-        <p className="text-white text-center text-[.9rem] sm:text-[1.2rem]">
-          Cuéntame tu idea y <span className="text-[#21f5f1]">juntos</span> lo
-          haremos <span className="text-[#21f5f1]">posible.</span>
+        <p className="text-white transition duration-300 dark:text-gray-900/90 text-center text-[.9rem] sm:text-[1.2rem]">
+          Cuéntame tu idea y <span className="text-[#21f5f1] transition duration-300 dark:text-[#842cd7]">juntos</span> lo
+          haremos <span className="text-[#21f5f1] transition duration-300 dark:text-[#842cd7]">posible.</span>
         </p>
       </div>
 
-      <div data-aos="fade-left"  className="animate-rigth-left border-div w-[min(100%,350px)] sm:w-[min(100%,500px)] mx-auto sm:mx-0">
+      <div data-aos="fade-up"  className="animate-rigth-left border-div w-[min(100%,350px)] sm:w-[min(100%,500px)] mx-auto sm:mx-0">
         <form
           ref={formRef}
           action=""

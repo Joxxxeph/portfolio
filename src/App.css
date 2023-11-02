@@ -1,6 +1,9 @@
 .img-font {
-    background: radial-gradient(ellipse at bottom, #1b2735 10%, #090a0f 100%)
+    background: radial-gradient(ellipse at bottom, #1b2735 10%, #090a0f 100%);
+    transition: .5s;
 }
+
+
 
 img {
     width: 100%;

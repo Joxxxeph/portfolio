@@ -1,9 +1,9 @@
 const Projects = () => {
   return (
     <section className="sm:pt-[4rem] pt-[4rem] pb-[4rem]" id="projects">
-      <h1 data-aos="fade-right"  className="text-[2rem] text-center text-white">Mis Proyectos.</h1>
-      <p data-aos="fade-right"  className="py-[1rem] text-gray-300 text-center text-[1.2rem] tracking-[.03rem]">Si lo puedes <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#842cd7] to-[#21f5f1]">Imaginar</span> los puedes <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#842cd7] to-[#21f5f1]">Programar.</span></p>
-      <div className="pt-5 grid grid-cols-[repeat(auto-fit,_300px)] items-center justify-center gap-6">
+      <h1 data-aos="fade-right"  className="text-[2rem] transition duration-300 dark:text-black  text-center text-white">Mis Proyectos.</h1>
+      <p data-aos="fade-right"  className="py-[1rem] transition duration-300 dark:text-gray-900/90 text-gray-300 text-center text-[1.2rem] tracking-[.03rem]">Si lo puedes <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#842cd7] to-[#21f5f1]">Imaginar</span> los puedes <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#842cd7] to-[#21f5f1]">Programar.</span></p>
+      <div className="pt-8 grid grid-cols-[repeat(auto-fit,_300px)] items-center justify-center gap-6">
         
         <a data-aos="fade-up"  href="https://rick-and-morty-app-swart-tau.vercel.app/" target="blank" className="content relative shadow-xl w-[300px] rounded-xl overflow-hidden">
           <article className="absolute content-info w-[100%] h-[100%] justify-center gap-4 flex flex-col items-center px-2 bg-black/80 text-white">
