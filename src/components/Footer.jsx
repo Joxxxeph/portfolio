@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandInstagram, IconBrandLinkedin } from "@tabler/icons-react"
+import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react"
 
 const Footer = () => {
   return (
@@ -8,7 +8,6 @@ const Footer = () => {
         </div>
         <div className="relative z-50 flex gap-3 sm:flex-row flex-col justify-center items-center" >
             <div className="flex gap-3 flex-col sm:flex-row justify-center items-center">
-                <a target="_blanck" className="hover:text-[#842cd7] transition-colors" href="https://www.instagram.com/joseph.vasquezz/"><IconBrandInstagram /></a>
                 <a target="_blanck" className="hover:text-[#842cd7] transition-colors" href="https://www.linkedin.com/in/joseph-anthony-v%C3%A1squez-alvarez-841ab120a/?originalSubdomain=ve"><IconBrandLinkedin /> </a>
                 <a target="_blanck" className="hover:text-[#842cd7] transition-colors" href="https://github.com/Joxxxeph"><IconBrandGithub /> </a>
             </div>

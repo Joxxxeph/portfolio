@@ -10,7 +10,8 @@
             "/stacksImage/css.png"
         ]
         ,
-        "url": "https://rick-and-morty-app-swart-tau.vercel.app/"
+        "url": "https://rick-and-morty-app-swart-tau.vercel.app/",
+        "urlGit": "https://github.com/Joxxxeph/rick-and-morty-app"
     },
     {
         "name":"E-Commerce",
@@ -22,7 +23,8 @@
             "/stacksImage/css.png"    
         ]
         ,
-        "url": "https://joxxxeph.github.io/e-commerce/"
+        "url": "https://joxxxeph.github.io/e-commerce/",
+        "urlGit": "https://github.com/Joxxxeph/e-commerce"
     },
     {
         "name":"Pokedex App",
@@ -35,11 +37,12 @@
             "/stacksImage/css.png"    
         ]
         ,
-        "url": "https://pokedex-joxxxeph.vercel.app/"
+        "url": "https://pokedex-joxxxeph.vercel.app/",
+        "urlGit": "https://github.com/Joxxxeph/pokedex"
     },
     {
         "name":"Wheater App",
-        "description":"Aplicación del clima en donde se refleja los datos climatológicos de tu región o ciudad, te permite buscar una localización en específico.",
+        "description":"Puedes visualizar datos climatológicos de tu región o ciudad, te permite buscar una localización en específico.",
         "img":"/proyectsImage/wheater.jpeg",
         "stacks":[
             "/stacksImage/react.png",
@@ -47,7 +50,8 @@
             "/stacksImage/tailwind.png"    
         ]
         ,
-        "url": "https://weather-app-nu-ivory.vercel.app/"
+        "url": "https://weather-app-nu-ivory.vercel.app/",
+        "urlGit": "https://github.com/Joxxxeph/weather-app"
     },
     {
         "name":"CRUD de Usuarios",
@@ -60,7 +64,8 @@
             "/stacksImage/css.png"    
         ]
         ,
-        "url": "https://crud-app-joxxxeph.vercel.app/"
+        "url": "https://crud-app-joxxxeph.vercel.app/",
+        "urlGit": "https://github.com/Joxxxeph/crud-app"
     },
     {
         "name":"Servicios web App",
@@ -72,7 +77,8 @@
             "/stacksImage/css.png"    
         ]
         ,
-        "url": "https://servicios-app.vercel.app//"
+        "url": "https://servicios-app.vercel.app//",
+        "urlGit": "https://github.com/Joxxxeph/servicios-app"
     },
     {
         "name":"Frases Filosóficas App",
@@ -85,7 +91,8 @@
             "/stacksImage/css.png"    
         ]
         ,
-        "url": "https://primer-entregable-react-p5766kbge-joxxxeph.vercel.app/"
+        "url": "https://primer-entregable-react-p5766kbge-joxxxeph.vercel.app/",
+        "urlGit": "https://github.com/Joxxxeph/primer-entregable-react"
     },
     {
         "name":"Contador App",
@@ -97,7 +104,8 @@
             "/stacksImage/css.png"    
         ]
         ,
-        "url": "https://joxxxeph.github.io/contadornuevo/"
+        "url": "https://joxxxeph.github.io/contadornuevo/",
+        "urlGit": "https://github.com/Joxxxeph/contadornuevo"
     }
 
     
