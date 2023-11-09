@@ -1,11 +1,11 @@
 const Stack = () => {
   return (
     <section className=" flex flex-col sm:pt-[8rem] pt-[4rem] px-4" id="stack">
-      <h1 data-aos="fade-right"  className="text-[2rem] text-center transition duration-300 dark:text-black text-white pb-[3rem]">
+      <h1 data-aos="fade-right"  className="text-[2rem] text-center transition duration-300 dark:text-black text-white pb-[5rem]">
         Mis Habilidades.
       </h1>
       <div data-aos="zoom-in"  className="border-div">
-        <div className="bg-div py-10 grid grid-cols-[repeat(auto-fit,_120px)] gap-6 place-items-center justify-center">
+        <div className="bg-div py-16 grid grid-cols-[repeat(auto-fit,_120px)] gap-6 gap-y-10 place-items-center justify-center">
           <img title="Javascript" src="./stacksImage/javascript.png" className="w-[100px] drop-shadow-2xl" alt="javascript" />
           <img title="ReactJs" src="./stacksImage/react.png" className="w-[100px] drop-shadow-2xl" alt="react" />
           <img title="Tailwind" src="./stacksImage/tailwind.png" className="w-[100px] drop-shadow-2xl" alt="tailwind" />

@@ -39,6 +39,28 @@ export default {
             opacity: '100%'
           }
         },
+        'fade-in2': {
+          '0%': {    
+            opacity: '0%'
+          },
+          '50%': {
+            opacity: '0%'
+          },
+          '100%': { 
+            opacity: '100%'
+          }
+        },
+        'fade-in3': {
+          '0%': {    
+            opacity: '0%'
+          },
+          '50%': {
+            opacity: '0%'
+          },
+          '100%': { 
+            opacity: '100%'
+          }
+        },
         'nav-bar': {
           '0%': {
             transform: 'translateY(60px)',
@@ -54,7 +76,10 @@ export default {
       animation: {
         'left-rigth': 'left-rigth 1.5s',
         'rigth-left': 'rigth-left 1.5s',
-        'nav-bar': 'nav-bar 1.5s'
+        'nav-bar': 'nav-bar 1.5s',
+        'fade-in1': 'fade-in1 1.4s',
+        'fade-in2': 'fade-in2 2.2s',
+        'fade-in3': 'fade-in3 .7s',
       }
     },
     
