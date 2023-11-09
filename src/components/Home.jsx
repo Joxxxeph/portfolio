@@ -38,7 +38,7 @@ const Home = () => {
         className=" overflow-hidden flex sm:pt-[4rem] justify-center items-center"
       >
         <img
-          src="./home-4.png"
+          src="./home.png"
           alt=""
           className="max-w-[200px] sm:max-w-[400px] h-[300px] sm:h-[400px] object-cover "
         />
