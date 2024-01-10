@@ -95,7 +95,7 @@ const Home = () => {
         </div>
         <div className=" border-t-[1px] border-[#842cd7] w-[10rem] "></div>
         <p className="leading-[1.7rem] text-[1.1rem] transition duration-300 dark:text-gray-900/90 text-gray-300 ">
-          Para ser un buen programador se requiere de 5% de talento y de 97% de
+          Para ser un buen programador se requiere de 5% de talento y de 95% de
           dedicación, esfuerzo y sacrificio.
         </p>
         {/* <p className="leading-[1.7rem] transition duration-300 dark:text-gray-900/90 text-gray-300 ">
