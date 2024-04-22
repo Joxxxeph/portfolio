@@ -131,14 +131,14 @@ const Home = () => {
 
           <div className="flex dark:text-black transition duration-300 justify-center gap-[1.5rem] sm:pl-8 items-center pt-[3rem] sm:pt-0">
             <a
-              className="hover:text-[#842cd7] bg-[#842cd7] md:bg-white transition-colors "
+              className="hover:text-[#842cd7] text-[#842cd7] md:text-white transition-colors "
               target="_blanck"
               href="https://github.com/Joxxxeph"
             >
               <IconBrandGithub size={32}/>
             </a>
             <a
-              className="hover:text-[#842cd7] bg-[#842cd7] md:bg-white transition-colors"
+              className="hover:text-[#842cd7] text-[#842cd7] md:text-white transition-colors"
               target="_blanck"
               href="https://www.linkedin.com/in/joseph-anthony-v%C3%A1squez-alvarez-841ab120a/?originalSubdomain=ve"
             >
