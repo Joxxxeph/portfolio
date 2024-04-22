@@ -10,7 +10,7 @@ const NavBar = ({handleChangeTheme, theme}) => {
       <div className="container mx-auto">
         <div
           className="w-full flex transition duration-300 dark:bg-gray-400/60 dark:text-[#0d0f10] bg-black/20 h-[70px] md:h-[80px] backdrop-blur-2xl 
-            rounded-full max-w-[400px] mx-auto px-5 items-center justify-between text-2xl text-white/50 "
+            rounded-full max-w-[320px] md:max-w-[400px] mx-auto px-5 items-center justify-between text-2xl text-white/50 "
         >
           <Link
             className="hoverA cursor-pointer w-[60px] h-[60px] flex justify-center items-center"

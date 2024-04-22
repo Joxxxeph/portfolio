@@ -16,17 +16,35 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Swal from "sweetalert2";
 
+const PDF_FILE_URL = 'http://localhost:5173/josephVasquez.pdf'
+
 const Home = () => {
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
-  const handleAlert = () => {
+  // const handleAlert = () => {
+  //   Swal.fire({
+  //     icon: "info",
+  //     title: "Estamos trabajando en ello :D",
+  //   });
+  // };
+
+  const downloadFileAtURL = (url) => {
+    const fileName = url.split('/').pop();
+    const aTag = document.createElement('a');
+    aTag.href = url;
+    aTag.setAttribute('download', fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+
     Swal.fire({
-      icon: "info",
-      title: "Estamos trabajando en ello :D",
+      icon: "success",
+      title: "Descargado correctamente :D",
     });
-  };
+  }
 
   return (
     <section
@@ -110,27 +128,27 @@ const Home = () => {
 
         <div className="sm:flex sm:justify-start justify-center items-center pt-7">
           <div className="flex justify-center">
-            <a href="#" className="btn-a" onClick={handleAlert}>
+            <a href="#" className="btn-a" onClick={() => {downloadFileAtURL(PDF_FILE_URL)}}>
               <div className="duration-500 gap-x-[2px] gap-y-[2px] dark:text-black dark:bg-[#bde5f8] dark:hover:bg-[rgba(248,248,248,0.9)] hover:bg-[#0d0f10cc] bg-[#0d0f10] rounded-[8px] [transition:background-color_.3s] flex justify-centeritems-center py-[.5rem] px-[2.5rem]">
                 Descargar CV
               </div>
             </a>
           </div>
 
-          <div className="flex dark:text-black transition duration-300 justify-center gap-[1.5rem] sm:gap-8 sm:pl-8 items-center pt-[3rem] sm:pt-0">
+          <div className="flex dark:text-black transition duration-300 justify-center gap-[1.5rem] sm:pl-8 items-center pt-[3rem] sm:pt-0">
             <a
               className="hover:text-[#842cd7] transition-colors "
               target="_blanck"
               href="https://github.com/Joxxxeph"
             >
-              <IconBrandGithub />
+              <IconBrandGithub size={32}/>
             </a>
             <a
               className="hover:text-[#842cd7] transition-colors"
               target="_blanck"
               href="https://www.linkedin.com/in/joseph-anthony-v%C3%A1squez-alvarez-841ab120a/?originalSubdomain=ve"
             >
-              <IconBrandLinkedin />
+              <IconBrandLinkedin size={32}/>
             </a>
           </div>
         </div>
