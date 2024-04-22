@@ -16,21 +16,15 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Swal from "sweetalert2";
 
-const PDF_FILE_URL = 'http://localhost:5173/josephVasquez.pdf'
 
 const Home = () => {
-
+  
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
-  // const handleAlert = () => {
-  //   Swal.fire({
-  //     icon: "info",
-  //     title: "Estamos trabajando en ello :D",
-  //   });
-  // };
-
+  const PDF_FILE_URL = `${window.location.href}/josephVasquez.pdf`;
+  
   const downloadFileAtURL = (url) => {
     const fileName = url.split('/').pop();
     const aTag = document.createElement('a');
