@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
 
   const PDF_FILE_URL = `${window.location.href}/josephVasquez.pdf`;
-  
+
   const downloadFileAtURL = (url) => {
     const fileName = url.split('/').pop();
     const aTag = document.createElement('a');
@@ -131,14 +131,14 @@ const Home = () => {
 
           <div className="flex dark:text-black transition duration-300 justify-center gap-[1.5rem] sm:pl-8 items-center pt-[3rem] sm:pt-0">
             <a
-              className="hover:text-[#842cd7] transition-colors "
+              className="hover:text-[#842cd7] bg-[#842cd7] md:bg-white transition-colors "
               target="_blanck"
               href="https://github.com/Joxxxeph"
             >
               <IconBrandGithub size={32}/>
             </a>
             <a
-              className="hover:text-[#842cd7] transition-colors"
+              className="hover:text-[#842cd7] bg-[#842cd7] md:bg-white transition-colors"
               target="_blanck"
               href="https://www.linkedin.com/in/joseph-anthony-v%C3%A1squez-alvarez-841ab120a/?originalSubdomain=ve"
             >
